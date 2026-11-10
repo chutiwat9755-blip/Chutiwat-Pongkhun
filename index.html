@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fc;
+    color: #333;
+}
+
+header {
+    background: #243b64;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: #dce9ff;
+}
+
+.hero img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.hero h1 {
+    margin-top: 20px;
+    color: #243b64;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+h2 {
+    color: #243b64;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 12px #0001;
+}
+
+.skills span {
+    display: inline-block;
+    background: #dce9ff;
+    color: #243b64;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #243b64;
+    color: white;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2 style="color:white;">MY PORTFOLIO</h2>
+    <nav>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#education">การศึกษา</a>
+        <a href="#activities">ผลงาน</a>
+        <a href="#contact">ติดต่อ</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <img src="profile.jpg" alt="รูปโปรไฟล์">
+    <h1>สวัสดี! ฉันชื่อ [ชื่อ-นามสกุล]</h1>
+    <p>ยินดีต้อนรับเข้าสู่ Portfolio ของฉัน</p>
+</div>
+
+<section id="about">
+    <h2>ABOUT ME | เกี่ยวกับฉัน</h2>
+    <div class="card">
+        <p>
+            สวัสดีค่ะ/ครับ ฉันชื่อ [ชื่อ]
+            ปัจจุบันกำลังศึกษาอยู่ชั้น [ระดับชั้น]
+            เป็นคนที่มีความตั้งใจในการเรียนรู้
+            ชอบค้นหาประสบการณ์ใหม่ ๆ
+            และพัฒนาความสามารถของตนเองอยู่เสมอ
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>EDUCATION | ประวัติการศึกษา</h2>
+    <div class="card">
+        <h3>ระดับประถมศึกษา</h3>
+        <p>โรงเรียน ....................</p>
+    </div>
+    <div class="card">
+        <h3>ระดับมัธยมศึกษา</h3>
+        <p>โรงเรียน ....................</p>
+    </div>
+</section>
+
+<section id="activities">
+    <h2>ACTIVITIES | กิจกรรมและผลงาน</h2>
+    <div class="card">
+        <h3>กิจกรรมที่ 1</h3>
+        <p>รายละเอียดกิจกรรมและสิ่งที่ได้รับจากกิจกรรม</p>
+    </div>
+    <div class="card">
+        <h3>กิจกรรมที่ 2</h3>
+        <p>รายละเอียดผลงานหรือเกียรติบัตร</p>
+    </div>
+</section>
+
+<section>
+    <h2>MY SKILLS | ความสามารถ</h2>
+    <div class="card skills">
+        <span>การทำงานเป็นทีม</span>
+        <span>ความคิดสร้างสรรค์</span>
+        <span>การสื่อสาร</span>
+        <span>คอมพิวเตอร์</span>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>CONTACT | ติดต่อ</h2>
+    <div class="card">
+        <p>Email: example@gmail.com</p>
+        <p>Facebook: Your Name</p>
+        <p>Instagram: @yourname</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My Portfolio | Thank you</p>
+</footer>
+
+</body>
+</html>
