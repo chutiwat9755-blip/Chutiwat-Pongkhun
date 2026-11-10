@@ -1,0 +1,171 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background: #243b64;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a8c9ff;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(
+        135deg,
+        #dce9ff,
+        #ffffff
+    );
+}
+
+.hero img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 20px #0002;
+}
+
+.hero h1 {
+    color: #243b64;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.hero p {
+    color: #666;
+    font-size: 18px;
+}
+
+/* SECTION */
+section {
+    padding: 60px 10%;
+}
+
+section h2 {
+    color: #243b64;
+    font-size: 26px;
+    margin-bottom: 25px;
+    border-left: 5px solid #6c9ce8;
+    padding-left: 15px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px #0001;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px #0002;
+}
+
+.card h3 {
+    color: #365b91;
+    margin-bottom: 10px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #dce9ff;
+    color: #243b64;
+    padding: 10px 20px;
+    margin: 7px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #243b64;
+    color: white;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+}
+
+/* FOOTER */
+footer {
+    background: #243b64;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 35px 6%;
+    }
+
+    section h2 {
+        font-size: 21px;
+    }
+}
